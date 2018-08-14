@@ -22,7 +22,7 @@ import com.oracle.bmc.core.model.SecurityList
 import com.oracle.bmc.core.model.TcpOptions
 import spock.lang.Specification
 
-@spock.lang.Ignore("pass on local runs, failed only on travisCI.")
+//@spock.lang.Ignore("pass on local runs, failed only on travisCI.")
 class OracleSecurityGroupProviderSpec extends Specification {
 
   def "get all"() {
